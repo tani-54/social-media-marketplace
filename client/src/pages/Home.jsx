@@ -2,6 +2,8 @@ import React from 'react'
 import Hero from '../components/hero'
 import LatestListings from '../components/LatestListings'
 import Plans from "../components/Plans"
+import CTA from "../components/CTA"
+import Footer from '../components/Footer'
 
 
 const Home = () => {
@@ -10,6 +12,8 @@ const Home = () => {
       <Hero />
       <LatestListings />
       <Plans/>
+      <CTA/>
+      <Footer/>
     </div>
   )
 }
